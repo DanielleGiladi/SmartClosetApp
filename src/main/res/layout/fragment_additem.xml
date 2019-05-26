@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danie.smartclosetapp.MainActivity"
+    android:layoutDirection="ltr"
+    android:background="#f5e9e2"
+
+
+    >
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="app"
+        tools:context="com.example.danie.smartclosetapp.MainActivity"
+        >
+
+        <ProgressBar
+            android:id="@+id/add_item_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="156dp"
+            android:indeterminate="true"
+             />
+
+        <ImageView
+            android:id="@+id/takeImage"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="41dp"
+            android:scaleType="centerCrop"
+            android:scrollbarSize="@android:dimen/notification_large_icon_height"
+            android:src="@drawable/camera"
+            android:visibility="visible" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/takeImage"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/pass_or_user_edit"
+            android:layout_marginBottom="152dp" />
+
+        <Button
+            android:id="@+id/saveImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp"
+            android:text="save image"
+            android:background="#ffb4a2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>

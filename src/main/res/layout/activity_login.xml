@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danie.smartclosetapp.LoginActivity"
+    android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    android:background="#f5e9e2"
+    >
+
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="156dp"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/progressBarLogin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/logoImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/pass_or_user_edit3"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/loginEmail"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/your_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="4dp"
+        android:fontFamily="serif"
+        android:background="@drawable/pass_or_user_edit3"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginAccountBtn"
+        android:layout_below="@+id/loginPassword"
+        android:layout_marginTop="40dp"
+        android:background="#ffb4a2"
+        android:text="@string/enter"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"/>
+
+    <Button
+        android:id="@+id/newAccountBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/loginAccountBtn"
+        android:layout_alignParentStart="true"
+        android:text="@string/create_new_account"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:fontFamily="serif"
+        android:background="@drawable/pass_or_user_edit" />
+
+
+
+</RelativeLayout>

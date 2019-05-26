@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "726450629525",
+    "firebase_url": "https://smartclosetapp-1f11d.firebaseio.com",
+    "project_id": "smartclosetapp-1f11d",
+    "storage_bucket": "smartclosetapp-1f11d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726450629525:android:ff75d58137ff7acf",
+        "android_client_info": {
+          "package_name": "com.example.danie.smartclosetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726450629525-c5k30k5tpj6t2pkit5epn00l5mkq99j3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.danie.smartclosetapp",
+            "certificate_hash": "f0fedaab240ac44b9cf58ede61a13256d983d6f6"
+          }
+        },
+        {
+          "client_id": "726450629525-tdfmah2d3at54104ajr7pr1rom9q6j87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk-422RQRJRDVe4GgbarAjOvcYv4jL85c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726450629525-tdfmah2d3at54104ajr7pr1rom9q6j87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

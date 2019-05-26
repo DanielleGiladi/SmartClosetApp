@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.danie.smartclosetapp.MainActivity"
+    android:layoutDirection="ltr"
+    android:weightSum="1"
+    android:background="#f5e9e2"
+
+    >
+
+    <ProgressBar
+        android:id="@+id/progressBarShow"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="5dp"
+        android:indeterminate="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/allGrid"
+        android:layout_weight="0.9"
+        >
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="2dp"
+            android:verticalSpacing="2dp"
+            >
+
+        </GridView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_next_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allGrid"
+        android:background="#ffb4a2"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danie.smartclosetapp.AboutAs"
+    android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    android:background="#f5e9e2"
+    >
+
+    <ImageView
+        android:id="@+id/aboutAsLogo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutAsTxt"
+        android:layout_below="@id/aboutAsLogo"
+        android:textColor="#ffb4a2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="@string/aboutas"/>
+
+
+
+
+
+
+</RelativeLayout>

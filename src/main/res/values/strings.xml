@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Smart Closet </string>
+
+    <string name="error">error</string>
+    <string name="permission_denied">permission denied</string>
+
+    <!--string add item -->
+    <string name="saveImage">save image</string>
+    <string name="Take_a_picture">Take a picture</string>
+    <string name="Select_an_item_type">Select an item type</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="closet">
+        <item>Item type</item>
+        <item>Shirt</item>
+        <item>Pants</item>
+        <item>Shoes</item>
+    </string-array>
+
+
+    <string name="Already_save">Already saved!</string>
+    <!--  String login and register -->
+
+    <string name="your_password">Your Password</string>
+    <string name="your_email">Your Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="login">Login</string>
+    <string name="Already_have_an_account">Already have an account ?</string>
+    <string name="enter">Enter</string>
+
+    <!--  String weather -->
+    <string name="change_city" translatable="false">Change city</string>
+
+    <string name="open_weather_maps_app_id" translatable="false">11111</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+
+    <!-- string new outfit -->
+
+    <string name="create_new_outfit">Create new outfit</string>
+    <string name="empty">The closet is empty</string>
+    <string name="not_enough">You need at least one image from of every item of clothing</string>
+    <string name="marked">You have already marked a photo </string>
+    <string name="need_to_select">You need to select an image</string>
+    <string name="shirt_next">Choose a shirt</string>
+    <string name="pants_next">Choose a pants</string>
+    <string name="shoes_next">Choose a shoes</string>
+    <string name="save_favorite">Save to favorite</string>
+    <string name="noThanks">No Thanks</string>
+
+    <!--string favorite -->
+    <string name="your_favorite">Your favorite</string>
+    <string name="favorite_data">every 3 pictures are an outfit</string>
+    <string name="empty_favorite">No favorites saved</string>
+
+    <!--string about as -->
+    <string name="title_activity_about_as">AboutAs</string>
+
+    <string name="aboutas">What to wear?
+        \nIts a daily question that we ask ourselves every day,
+        \nand how we can choose our cloths without making a mess in the closet?
+        \nOur App - Smart Closet,
+        \nprovides a solution to these question.
+        \nThis App is about making outfits,
+        \nsaving your favorite sets
+        \nand most importantly lets you know the weather before you decide what to wear.
+</string>
+
+
+</resources>

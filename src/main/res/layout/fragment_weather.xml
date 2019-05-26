@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danie.smartclosetapp.MainActivity"
+    android:layoutDirection="ltr"
+    android:background="#f5e9e2"
+
+    >
+
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/city_field"
+            android:fontFamily="serif"
+            android:textColor="#ffb4a2"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/updated_field"
+            android:textSize="13sp"
+            android:textColor="#ffb4a2"
+            android:layout_below="@+id/city_field"
+            android:fontFamily="serif"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/selectCity"
+            android:textSize="11dp"
+            android:layout_below="@+id/updated_field"
+            android:textStyle="italic"
+            android:text="@string/change_city"
+            android:fontFamily="serif"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:fontFamily="serif"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffb4a2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/weather_icon"
+            android:textSize="90sp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffb4a2"
+            android:fontFamily="serif"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/current_temperature_field"
+            android:textSize="50sp"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffb4a2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/details_field"
+            android:layout_below="@+id/weather_icon"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffb4a2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/humidity_field"
+            android:fontFamily="serif"
+            android:layout_below="@+id/details_field"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffb4a2"
+            android:fontFamily="serif"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/pressure_field"
+            android:layout_below="@+id/humidity_field"/>
+
+        <ProgressBar
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/loader"
+            android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>

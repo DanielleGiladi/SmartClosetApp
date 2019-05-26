@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danie.smartclosetapp.RegisterActivity"
+    android:layoutDirection="ltr"
+    android:background="#f5e9e2"
+
+
+    >
+
+    <ProgressBar
+        android:id="@+id/progressBarRegister"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="156dp"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/logoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_below="@id/progressBarLogin"/>
+
+    <EditText
+        android:id="@+id/loginEmailNew"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/logoRegister"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/pass_or_user_edit3"
+        android:ems="10"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress"
+        android:fontFamily="serif"
+        />
+
+    <EditText
+        android:id="@+id/loginPasswordNew"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/loginEmailNew"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:background="@drawable/pass_or_user_edit3"
+        android:layout_marginStart="4dp"
+        android:hint="@string/your_password"
+        android:inputType="textPassword"
+        android:fontFamily="serif"
+        />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/loginPasswordNew"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:background="@drawable/pass_or_user_edit3"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:fontFamily="serif"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="create account"
+        android:id="@+id/loginAccountNewBtn"
+        android:layout_below="@+id/confirmPassword"
+        android:layout_marginTop="20dp"
+        android:background="#ffb4a2"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"/>
+
+    <Button
+        android:id="@+id/haveAccountBtn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="serif"
+        android:layout_below="@+id/loginAccountNewBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/Already_have_an_account"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/pass_or_user_edit"
+        />
+
+
+
+</RelativeLayout>

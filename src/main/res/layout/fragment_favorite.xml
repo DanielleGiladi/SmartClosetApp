@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danie.smartclosetapp.MainActivity"
+    android:layoutDirection="ltr"
+    android:background="#f5e9e2"
+    >
+
+
+    <GridView
+        android:id="@+id/showFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:layout_below="@id/favoriteData">
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_favorite"
+        android:textSize="20dp"
+        android:textColor="#ffb4a2"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:id="@+id/favoriteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_data"
+        android:textSize="20dp"
+        android:layout_below="@+id/favorite"
+        android:textColor="#ffb4a2"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+</RelativeLayout>
