@@ -14,3 +14,5 @@ and most importantly lets you know the weather before you decide what to wear.
 Use the API to get the weather.
 
 Connect to Firebase to create users and save data.
+
+![Image main page](C:\Users\danie\Downloads\Screenshot_20200905-164220_Smart_Closet_App.jpg)
