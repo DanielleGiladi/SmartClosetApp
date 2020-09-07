@@ -15,4 +15,4 @@ Use the API to get the weather.
 
 Connect to Firebase to create users and save data.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
