@@ -15,4 +15,4 @@ Use the API to get the weather.
 
 Connect to Firebase to create users and save data.
 
-![Image main page](C:\Users\danie\Downloads\Screenshot_20200905-164220_Smart_Closet_App.jpg)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
