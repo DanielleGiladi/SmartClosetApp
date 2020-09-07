@@ -16,3 +16,11 @@ Use the API to get the weather.
 Connect to Firebase to create users and save data.
 
 
+<img src = "Images/loginScreen.jpg" width="200"> <img src = "Images/mainScreen.jpg" width="200"> <img src = "Images/savaImageScreen.jpg" width="200">
+<img src = "Images/weatherScreen.jpg" width="200">
+
+
+
+
+
+
